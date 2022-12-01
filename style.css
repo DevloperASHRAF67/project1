@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a, h1, h2, h3, h4, h5,p{
+    font-family: 'Montserrat', sans-serif;
+    opacity: .7;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+.bg{
+    background: #4558715e;
+}
+img{
+    max-width: 100%;
+}
+.bg2{
+    background: #516784;
+}
+.gread{
+    background: #51678414;
+    padding-bottom: 190px;
+    width: 1260px;
+}
+/* menu */
+
+body{
+    background: url(./img/first-bg.png) ;
+    background-size: cover; 
+}
+.menu{
+    background: #455871;
+    width: 111px;
+    position: fixed;
+
+}
+.menu i{
+    font-size: 50px;
+    color:#fff;
+    position: relative;
+    margin-top: 30px;
+    padding: 0px 5px 30px 15px;
+}
+.menu ul{
+    position: absolute;
+    top:100%;
+    left: -35%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    transform: scaleY( 0);
+    transform-origin: top;
+}
+.menu ul li{
+    padding: 40px 35px;
+    display: block;
+    background: #455871;
+    transition: 1s;
+}
+.menu:hover ul{
+    visibility:visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.menu ul li:hover{
+    background: red;
+}
+/* conteiner */
+.hi{
+    font-size: 80px;
+    font-weight: 700;
+}
+.hl{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.wid {
+    height: 497px;
+    position: relative;
+}
+.bb{
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    text-align: left;
+
+}
+.bb2{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    padding: 20px 0px 10px 10px;
+    text-align: left;
+    display: inline-block;
+
+}
+.ab{
+    position: absolute;
+    top: 54%;
+    left: 32%;
+}
+.sf {
+   color: #fff; 
+   opacity: 1;
+   font-size: 13px;
+}
+.ss button{
+    border: 1px solid transparent !important;
+}
+.ss button:hover{
+    border: 1px solid #fff !important;
+    background:#455871 !important ;
+}
+.mm{
+    margin-right: -20px;
+}
+.ex{
+    padding-top: 180px;
+}
+.pp2{
+    position: relative;
+}
+.pp3{
+    height: 850px;
+}
+.pp2 h1{
+    padding-top: 200px;
+}
+.iim{
+    position: absolute;
+    top: 46%;
+    left: 16%;
+}
+.text2{
+    position: absolute;
+    top: 56%;
+    left: 45%;
+}
+.hb{
+    border-bottom: 1px solid rgba(92, 88, 88, 0.712);
+    display: inline-block;
+}
+/* project */
+.mar{
+    margin-bottom: -100px;
+} 
+.pra{
+    position:absolute;
+    top: 40%;
+    left: 8%;
+}
+.pro2{
+  position: relative;
+  top: -15%;
+  left: 3%;
+}
+.div{
+    height: 380px;
+    width:1250px;
+    background:transparent;
+}
+/* con */
+.con{
+    position: relative;
+}
+.back{
+    background: rgba(30, 30, 30, 0.365);
+    position:absolute;
+    top: 55%;
+    left: 24%;
+}
+.back input{
+    margin-top: 10px;
+    width: 330px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    margin-left: 10px;
+    background:rgba(0, 0, 0, 0.32);
+    border: none;
+    outline: none;
+}
+.back textarea{
+    width: 330px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background:rgba(0, 0, 0, 0.32);
+    border: none;
+    outline: none;
+    color: rgb(109, 106, 106);
+    padding: 10px;
+}
+.back input:focus{
+    box-shadow: -2px 1px 4px rgb(0, 153, 255);
+}
+.back textarea:focus{
+    box-shadow: -2px 1px 4px rgb(0, 153, 255);
+}
+.abb{
+    position:absolute;
+    top:65%;
+    left: 57%;
+}
+.abb p{
+    font-size: 13px;
+    font-style: italic;
+    opacity: 1;
+
+}
+.div2{
+    height: 200px;
+    width: 1250px;
+    background:transparent;
+}
+.footer p{
+    color: #ffff;
+    padding: 30px 0px;
+    text-align: center;
+}
+.footer span{
+    color: red;
+    text-decoration: underline;
+}
+
